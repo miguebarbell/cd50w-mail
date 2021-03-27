@@ -1,0 +1,36 @@
+textarea {
+    min-height: 400px;
+}
+
+#div_message {
+    display: flex;
+    flex-direction: column;
+    /*align-items: center;*/
+}
+
+.big-blue {
+    font-size: 1.2rem;
+    color: dodgerblue;
+}
+
+/*.icon {*/
+/*    width: 20px;*/
+/*}*/
+
+.icon:hover {
+    border-bottom: dodgerblue solid 2px;
+    /*background-color: gray;*/
+    padding-bottom: 2px;
+}
+
+.read-message {
+    background-color: white;
+    padding-left: 10px;
+    /*border: 2px solid white;*/
+}
+
+.unread-message {
+    background-color: gray;
+    padding-left: 10px;
+}
+
