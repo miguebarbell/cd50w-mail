@@ -87,7 +87,6 @@ function open_message(email_id, mailbox) {
             tools.classList.add("big-blue")
             const reply_icon = '<i class="icon fas fa-reply" id="reply" title="Reply"></i>';
             const go_back_icon = '<i class="icon fas fa-arrow-left" id="go-back" title="Go Back"></i>';
-            const forward_icon = '<i class="icon fas fa-share" id="forward" title="Forward"></i>';
             const unread_icon = '<i class="icon fa fa-envelope-o" aria-hidden="true" id="unread-message" title="Mark as Unread"></i>';
             const archive_icon = '<i class="icon fa fa-archive" aria-hidden="true" id="archive-message" title="Send to Archive"></i>';
             const inbox_icon = '<i class="icon fa fa-inbox" aria-hidden="true" id="inbox-message" title="Send to Inbox"></i>';
